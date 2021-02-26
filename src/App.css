@@ -37,8 +37,14 @@
   }
 }
 
+.form {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-content: center; */
+}
+
 .form-group {
-  max-width: 45vw;
+  max-width: 20vw;
 }
 
 .form-group label {
@@ -49,5 +55,15 @@
 .userName {
   font-weight: bolder;
   font-size: 1.15em;
+}
 
+#root {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.submitBtn {
+  display: flex;
+  justify-content: center;
 }

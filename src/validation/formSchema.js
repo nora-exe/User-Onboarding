@@ -17,7 +17,7 @@ const formSchema = yup.object().shape({
     //     .test('passwords-match', 'Passwords must match', function(value){
     //         return yup.ref('password') === value
     //       }),
-    //     // .oneOf([yup.ref('password')], 'Passwords must match'),
+    //     // .oneOf([yup.ref('password')], null),
     haveRead: yup.bool().oneOf([true], 'Please read and accept the Terms of Service before proceeding'),
 })
 
